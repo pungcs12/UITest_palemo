@@ -10,7 +10,7 @@ pipeline {
         stage ('Install Dependencies') {
             steps {
                 echo 'testing'
-                pip list
+                bat label: '', script:'pip list'
                 // script{
                 //     sh '''
                 //         ls
