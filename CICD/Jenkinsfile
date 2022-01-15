@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('git repo'){
             steps{
+                cleanWs()
                 bat "git clone https://github.com/pungcs12/UITest_palemo.git"
             }
         }
