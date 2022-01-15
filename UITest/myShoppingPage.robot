@@ -9,29 +9,6 @@ Suite Setup  TestLifeCycle.Default Suite Setup
 *** Variables ***
 &{options}    headless=${False} 
 
-# # ${Register_btn}   //*[@class="jsx-3342260016 pml-btn pml-btn-txt header-user-btn"]/span[text()="Register"] 
-# # ${Login_btn}    //*[@class="jsx-3342260016 pml-btn pml-btn-txt header-user-btn"]/span[text()="Login"] 
-# # ${email_login_txt}    //*[@class="jsx-1695452889 pml-input__wrapper full-width"]/input[@class="jsx-1695452889 body1 pml-input__input"]
-# ${email_login_txt}   //*[@id="modal"]/section/section/div/form/div[1]/div/div/input
-# # ${email_login_txt}    //*[@type="email"]
-# ${password_login_txt}    //*[@type="password"]
-# ${login_login_btn}    //*[@class="jsx-3342260016 pml-btn pml-btn-pri auth__standalone-cta full-width"]
-# # ${item_img}    //*[@id="page-wrap"]/div[4]/div[2]/div[1]/a/figure/div[3]
-# ${newArrival_btn}    //*[@id="__next"]/header/div[2]/ul/li[1]/div/div/button
-# ${first_item_img}    //*[@id="modal"]/nav[1]/div//child::img[@alt="New Arrivals"]
-# # ${first_item_img}    //*[@id="modal"]/nav[1]/div/ul/li[1]/a/figure/picture/img
-# ${picked_item_img}   //*[@id="page-wrap"]/div[4]/div[2]/div/div/div/div[1]/div/a/figure/div[3]/picture/img
-# ${addToBag_btn}    //*[@class="jsx-3342260016 pml-btn pml-btn-pri pdp__add-to-bag-cta"]
-# ${selectSize_S_btn}    //*[@id="page-wrap"]/div[2]/div[1]/div[2]/div[2]/div[2]/div/div/button[1]
-# ${cart_btn}     //*[@id="__next"]/header/div[4]/ul/div/li/span/img
-# ${size_dropdown}    //*[@id="__next"]/div[3]/div/div[2]/div[2]/div/div[2]/div[2]/div[1]/div/div/select
-
-# ${quantity_dropdown}   //*[@id="__next"]/div[3]/div/div[2]/div[2]/div/div[2]/div[2]/div[2]/div/div/div/select
-# ${cancel_item_btn}    //*[@id="__next"]/div[3]/div/div[2]/div[2]/div/div[1]/div/span/img
-# ${promo_code_txt}    //*[@id="__next"]/div[3]/div/div[2]/div[3]/div[2]/div/div/div/input
-# ${apply_code_btn}    //*[@id="__next"]/div[3]/div/div[2]/div[3]/div[2]/button
-# ${proceed_chkout_btn}    //*[@id="__next"]/div[3]/div/div[5]/button
-
 *** Keywords ***
 Open Browser Palemo URL
     Open Browser    https://www.pomelofashion.com/th/en/     browser=chrome      options=${options} 
