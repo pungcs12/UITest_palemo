@@ -10,6 +10,11 @@ pipeline {
         stage ('Install Dependencies') {
             steps {
                 echo 'testing'
+                script{
+                    sh '''
+                        ls
+                    '''
+                }
             }
         }
     }
