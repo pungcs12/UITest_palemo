@@ -10,9 +10,10 @@ pipeline {
         stage ('Install Dependencies') {
             steps {
                 sh '''
-                    python3 --version
-                    pip3 install --upgrade pip
-                    pip3 install -r requirement.txt
+                    echo 'helll'
+                    //python3 --version
+                    //pip3 install --upgrade pip
+                    //pip3 install -r requirement.txt
                 '''
             }
         }
