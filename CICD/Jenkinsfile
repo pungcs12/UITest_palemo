@@ -9,15 +9,11 @@ pipeline {
         }
         stage ('Install Dependencies') {
             steps {
-                script {
-                    docker.image('python:3.7').inside {
-                        sh '''
-                            python3 --version
-                            pip3 install --upgrade pip
-                            pip3 install -r requirement.txt
-                        '''
-                    }
-                }
+                sh '''
+                    python3 --version
+                    pip3 install --upgrade pip
+                    pip3 install -r requirement.txt
+                '''
             }
         }
     }
