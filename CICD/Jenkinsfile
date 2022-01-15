@@ -10,7 +10,7 @@ pipeline {
         stage ('Install Dependencies') {
             steps {
                 echo 'testing'
-                bat label: '', script:'pip list'
+                bat label: '', script:'pip install -r requirement.txt'
                 bat label: '', script:'python --version'
                 bat label: '', script:'robot -d results UITest_palemo/UITest/myShoppingPage.robot'
                 // script{
