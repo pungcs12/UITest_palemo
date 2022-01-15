@@ -7,8 +7,8 @@ pipeline {
                 bat "git clone https://github.com/pungcs12/UITest_palemo.git"
             }
         }
-        // stage ('Install Dependencies') {
-        //     steps {
+        stage ('Install Dependencies') {
+            steps {
         //         sh 'echo hello'
         //         //sh '''
         //             //echo 'helll'
@@ -16,7 +16,7 @@ pipeline {
         //             //pip3 install --upgrade pip
         //             //pip3 install -r requirement.txt
         //         //'''
-        //     }
-        // }
+            }
+        }
     }
 }
