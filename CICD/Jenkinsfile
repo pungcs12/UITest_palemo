@@ -12,7 +12,7 @@ pipeline {
                 echo 'testing'
                 bat label: '', script:'pip list'
                 bat label: '', script:'python --version'
-                bat label: '', script:'robot -d results UITest/myShoppingPage.robot'
+                bat label: '', script:'robot -d results UITest_palemo/UITest/myShoppingPage.robot'
                 // script{
                 //     sh '''
                 //         ls
