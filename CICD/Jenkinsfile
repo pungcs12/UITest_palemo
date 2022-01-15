@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+    stages {
+        stage('git repo'){
+            steps{
+                bat "git clone https://github.com/pungcs12/UITest_palemo.git"
+            }
+        }
+    }
+}
