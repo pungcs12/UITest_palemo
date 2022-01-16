@@ -16,7 +16,6 @@ Open Browser Palemo URL
 
 *** Test Cases ***
 TestCase 01 Register page is active
-    [Teardown]    Close All Browser
     Open Browser Palemo URL 
     Click Element    xpath=${Register_btn}
 
