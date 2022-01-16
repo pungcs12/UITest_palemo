@@ -7,7 +7,7 @@ Suite Setup  TestLifeCycle.Default Suite Setup
 
 
 *** Variables ***
-&{options}    headless=${False} 
+&{options}    headless=${True} 
 
 *** Keywords ***
 Open Browser Palemo URL
