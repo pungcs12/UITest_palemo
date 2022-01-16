@@ -1,4 +1,6 @@
-# How to run
+# testcases_palemo.pdf is the answer of #1 assignment 
+
+# How to run #2 assignment
 prerequisite 
 1. Jenkins server running on Window OS. The automation script is developed with Robot Framework
 
