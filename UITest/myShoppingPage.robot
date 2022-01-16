@@ -4,10 +4,11 @@ Suite Teardown    Close Puppeteer
 Resource  ${CURDIR}${/}../CONFIG/TestLifeCycle.resource
 
 Suite Setup  TestLifeCycle.Default Suite Setup
+Suite Teardown  Close All Browser
 
 
 *** Variables ***
-&{options}    headless=${True} 
+&{options}    headless=${False} 
 
 *** Keywords ***
 Open Browser Palemo URL
